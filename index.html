@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hemanta Dutta | Interactive Portfolio & Resume</title>
+    <meta name="description" content="Interactive developer and commerce portfolio featuring anime camera character tracking, 3D butterfly cursor, smooth slide-in resume modal, and comprehensive professional background." />
+    <meta property="og:title" content="Hemanta Dutta | Interactive Portfolio & Resume" />
+    <meta property="og:description" content="Interactive developer and commerce portfolio featuring anime camera character tracking, 3D butterfly cursor, smooth slide-in resume modal, and comprehensive professional background." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      @media print {
+        body * {
+          visibility: hidden;
+        }
+        #printable-resume, #printable-resume * {
+          visibility: visible;
+        }
+        #printable-resume {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          background: white !important;
+          color: black !important;
+          box-shadow: none !important;
+          border: none !important;
+          padding: 0 !important;
+          margin: 0 !important;
+        }
+        .no-print {
+          display: none !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-[#FFF8F9] text-slate-800 antialiased selection:bg-[#FF3F6C]/20 selection:text-[#FF3F6C]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

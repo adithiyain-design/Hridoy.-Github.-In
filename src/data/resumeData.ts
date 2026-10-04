@@ -1,0 +1,125 @@
+import { ExperienceItem, EducationItem, CertificationItem } from '../types/portfolio';
+
+export const resumeData = {
+  personal: {
+    name: 'HEMANTA DUTTA',
+    role: 'Tax Accountant & Sales Operations Professional',
+    tagline: '3+ Years of expertise in Bookkeeping, GST Filing, Tally, and Financial Operations',
+    location: 'Jorhat, Assam, India - 785007',
+    address: 'House No. 11, Krishana Guru Sewashram, Old Kumar Kaybarta Gaon, Jorhat, Assam - 785007',
+    phone: '9365678816',
+    email: 'hdutta540@gmail.com',
+    objective:
+      'Dedicated and detail-oriented professional with 3 years of experience in accounting, tax consulting, and sales operations. Adept at utilizing financial software such as Tally and Ezy Rakod. Seeking to leverage my technical skills and accounting expertise to contribute effectively to a dynamic organization.',
+    declaration:
+      'I hereby declared that the above information given by me is true to best of my Knowledge.',
+    place: 'JORHAT, ASSAM',
+  },
+  stats: [
+    { label: 'Experience', value: '3+ Yrs', desc: 'Accounting & Tax Advisory' },
+    { label: 'GST Returns', value: '100% On-Time', desc: 'Filing & Reconciliation' },
+    { label: 'B.Com (Hons)', value: '6.69 CGPA', desc: 'Dibrugarh University' },
+    { label: 'Diplomas', value: '3 Certifications', desc: 'PGDCA, DTP & Hardware' },
+  ],
+  experiences: [
+    {
+      id: 'tax-consultant',
+      role: 'Accountant',
+      company: 'Tax Consultant Firm',
+      location: 'Jorhat, Assam',
+      duration: '3 Years',
+      period: '2023 - Present',
+      badgeColor: '#FF3F6C',
+      description: [
+        'Managed and recorded daily financial transactions, ensuring accurate accounting practices according to standards.',
+        'Operated Tally ERP/Prime software and Ezy Rakod for comprehensive bookkeeping and taxation data entry.',
+        'Assisted in the accurate preparation, verification, and timely filing of Goods and Services Tax (GST) returns.',
+        'Maintained company ledgers, reconciled complex bank statements, and generated financial reports for diverse clients.',
+      ],
+      skills: ['Tally ERP / Prime', 'Ezy Rakod', 'GST Filing', 'Bank Reconciliation', 'Ledger Accounting', 'Tax Reports'],
+    },
+    {
+      id: 'nestle-distributor',
+      role: 'Sales Representative',
+      company: 'Nestle Distributor',
+      location: 'Jorhat, Assam',
+      duration: '1 Year',
+      period: '2022 - 2023',
+      badgeColor: '#E11D48',
+      description: [
+        'Facilitated the distribution and commercial sales of Nestle FMCG products within the designated Jorhat territory.',
+        'Developed and maintained strong relationships with local retailers to optimize product placement and sales volume.',
+        'Tracked inventory levels, monitored supply demand, and ensured timely delivery of consumer goods.',
+      ],
+      skills: ['Sales & Distribution', 'Retail Relations', 'Inventory Management', 'Supply Logistics', 'Market Coverage'],
+    },
+  ] as ExperienceItem[],
+  education: [
+    {
+      degree: 'Bachelor of Commerce (B.Com) Honors',
+      institution: 'C.K.B. College, Teok',
+      boardOrUniversity: 'Dibrugarh University',
+      year: 'Graduated: 2023',
+      grade: 'CGPA: 6.69',
+      details: 'Specialization in Commerce, Accounting, and Business Management with honors coursework.',
+    },
+    {
+      degree: '12th Standard (Higher Secondary)',
+      institution: 'AHSEC Board',
+      boardOrUniversity: 'Assam Higher Secondary Education Council',
+      year: '2020',
+      grade: 'Score: 39.8%',
+      details: 'Higher Secondary education completed under AHSEC Assam curriculum.',
+    },
+    {
+      degree: '10th Standard (High School)',
+      institution: 'SEBA Board',
+      boardOrUniversity: 'Secondary Education Board of Assam',
+      year: '2018',
+      grade: 'Score: 42.0%',
+      details: 'High School Leaving Certificate completed under SEBA Assam.',
+    },
+  ] as EducationItem[],
+  certifications: [
+    {
+      code: 'PGDCA',
+      title: 'Post Graduate Diploma in Computer Application',
+      description: 'Comprehensive curriculum spanning advanced computing, database structures, business software, and application logic.',
+      category: 'Computer',
+    },
+    {
+      code: 'Hardware & DTP',
+      title: 'Diploma in Computer Hardware Repairing & Desktop Publishing',
+      description: 'Hands-on training in desktop publication tools, layout design, computer assembly, peripheral troubleshooting, and system maintenance.',
+      category: 'Hardware',
+    },
+    {
+      code: 'DCA',
+      title: 'Diploma in Computer Application',
+      description: 'Foundational certification covering office productivity suites, digital bookkeeping workflows, spreadsheet mastery, and operating systems.',
+      category: 'Accounting',
+    },
+  ] as CertificationItem[],
+  softwareSkills: [
+    { name: 'Tally ERP / Prime', level: 95, category: 'Accounting Software' },
+    { name: 'Ezy Rakod', level: 90, category: 'Accounting Software' },
+    { name: 'MS Excel (VLOOKUP, Pivot, Formulas)', level: 88, category: 'Productivity' },
+    { name: 'MS Word & Documentation', level: 85, category: 'Productivity' },
+    { name: 'MS PowerPoint', level: 80, category: 'Productivity' },
+  ],
+  coreCompetencies: [
+    'Financial Accounting',
+    'GST Return Preparation & Filing',
+    'Bank Reconciliation & Ledger Auditing',
+    'Sales Operations & Channel Distribution',
+    'Desktop Publishing (DTP)',
+    'Computer Hardware Diagnostics & Repair',
+    'Client Tax Advisory',
+    'Inventory Tracking',
+  ],
+  languages: [
+    { name: 'Assamese', proficiency: 'Native / Mother Tongue', level: 100 },
+    { name: 'Hindi', proficiency: 'Fluent Spoken & Written', level: 90 },
+    { name: 'English', proficiency: 'Professional Working Proficiency', level: 80 },
+  ],
+};
